@@ -16,7 +16,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        sleep(2)
+        let firstVC=GoodViewController();
+        let nav1=UINavigationController(rootViewController:firstVC);
+        nav1.tabBarItem=UITabBarItem(title:"羊圈",image:UIImage(named:"Sheep")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal),tag:0);
+
+        let secondVC=BadViewController();
+        let nav2=UINavigationController(rootViewController:secondVC);
+        nav2.tabBarItem=UITabBarItem(title:"狼窝",image:UIImage(named:"Wolf")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal),tag:1);
+        
+        let thirdVC=AboutViewController();
+        let nav3=UINavigationController(rootViewController:thirdVC);
+        nav3.tabBarItem=UITabBarItem(title:"更多",image:UIImage(named:"More")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal),tag:2);
+        
+        
+        let navArr=[nav1,nav2,nav3];
+        let tabBarController=UITabBarController();
+        tabBarController.viewControllers=navArr;
+        self.window!.rootViewController=tabBarController;
+        tabBarController.tabBar.layer.borderColor=UIColor(red: CGFloat(255) / 255.0, green: CGFloat(215) / 255.0, blue: CGFloat(0) / 255.0, alpha: CGFloat(1)).CGColor
+        tabBarController.tabBar.layer.borderWidth=1
+        
+        let WIDTH=self.window?.frame.width
+        let HEIGHT=self.window?.frame.height
+        
+        var rect=CGRectMake(0, 0, WIDTH!, 49)
+        var view=UIView(frame: rect)
+        view.backgroundColor=UIColor.whiteColor()
+         tabBarController.tabBar.insertSubview(view, atIndex: 0)
+        
+        self.window!.makeKeyAndVisible()
+   
         return true
     }
 

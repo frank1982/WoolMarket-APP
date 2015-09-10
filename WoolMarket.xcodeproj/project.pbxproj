@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0142B0161B9DEAA000771E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142B0151B9DEAA000771E1D /* AppDelegate.swift */; };
-		0142B0181B9DEAA000771E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142B0171B9DEAA000771E1D /* ViewController.swift */; };
+		0142B0181B9DEAA000771E1D /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142B0171B9DEAA000771E1D /* GoodViewController.swift */; };
 		0142B01B1B9DEAA000771E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0142B0191B9DEAA000771E1D /* Main.storyboard */; };
 		0142B01E1B9DEAA000771E1D /* WoolMarket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0142B01C1B9DEAA000771E1D /* WoolMarket.xcdatamodeld */; };
-		0142B0201B9DEAA000771E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0142B01F1B9DEAA000771E1D /* Assets.xcassets */; };
-		0142B0231B9DEAA000771E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0142B0211B9DEAA000771E1D /* LaunchScreen.storyboard */; };
 		0142B02E1B9DEAA100771E1D /* WoolMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142B02D1B9DEAA100771E1D /* WoolMarketTests.swift */; };
 		0142B0391B9DEAA100771E1D /* WoolMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142B0381B9DEAA100771E1D /* WoolMarketUITests.swift */; };
+		0142B0471B9DEE9500771E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0142B0461B9DEE9500771E1D /* Assets.xcassets */; };
+		01FB62A31BA09536003C2D72 /* BadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB62A21BA09536003C2D72 /* BadViewController.swift */; };
+		01FB631F1BA186E1003C2D72 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB631E1BA186E1003C2D72 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +38,9 @@
 /* Begin PBXFileReference section */
 		0142B0121B9DEAA000771E1D /* WoolMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoolMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0142B0151B9DEAA000771E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0142B0171B9DEAA000771E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0142B0171B9DEAA000771E1D /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
 		0142B01A1B9DEAA000771E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0142B01D1B9DEAA000771E1D /* WoolMarket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WoolMarket.xcdatamodel; sourceTree = "<group>"; };
-		0142B01F1B9DEAA000771E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0142B0221B9DEAA000771E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0142B0241B9DEAA000771E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0142B0291B9DEAA100771E1D /* WoolMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoolMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0142B02D1B9DEAA100771E1D /* WoolMarketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoolMarketTests.swift; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		0142B0341B9DEAA100771E1D /* WoolMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoolMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0142B0381B9DEAA100771E1D /* WoolMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoolMarketUITests.swift; sourceTree = "<group>"; };
 		0142B03A1B9DEAA100771E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0142B0461B9DEE9500771E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01FB62A21BA09536003C2D72 /* BadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadViewController.swift; sourceTree = "<group>"; };
+		01FB631E1BA186E1003C2D72 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,14 @@
 		0142B0141B9DEAA000771E1D /* WoolMarket */ = {
 			isa = PBXGroup;
 			children = (
+				0142B0461B9DEE9500771E1D /* Assets.xcassets */,
 				0142B0151B9DEAA000771E1D /* AppDelegate.swift */,
-				0142B0171B9DEAA000771E1D /* ViewController.swift */,
+				0142B0171B9DEAA000771E1D /* GoodViewController.swift */,
 				0142B0191B9DEAA000771E1D /* Main.storyboard */,
-				0142B01F1B9DEAA000771E1D /* Assets.xcassets */,
-				0142B0211B9DEAA000771E1D /* LaunchScreen.storyboard */,
 				0142B0241B9DEAA000771E1D /* Info.plist */,
 				0142B01C1B9DEAA000771E1D /* WoolMarket.xcdatamodeld */,
+				01FB62A21BA09536003C2D72 /* BadViewController.swift */,
+				01FB631E1BA186E1003C2D72 /* AboutViewController.swift */,
 			);
 			path = WoolMarket;
 			sourceTree = "<group>";
@@ -234,8 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0142B0231B9DEAA000771E1D /* LaunchScreen.storyboard in Resources */,
-				0142B0201B9DEAA000771E1D /* Assets.xcassets in Resources */,
+				0142B0471B9DEE9500771E1D /* Assets.xcassets in Resources */,
 				0142B01B1B9DEAA000771E1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0142B01E1B9DEAA000771E1D /* WoolMarket.xcdatamodeld in Sources */,
-				0142B0181B9DEAA000771E1D /* ViewController.swift in Sources */,
+				01FB62A31BA09536003C2D72 /* BadViewController.swift in Sources */,
+				0142B0181B9DEAA000771E1D /* GoodViewController.swift in Sources */,
+				01FB631F1BA186E1003C2D72 /* AboutViewController.swift in Sources */,
 				0142B0161B9DEAA000771E1D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +309,6 @@
 				0142B01A1B9DEAA000771E1D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0142B0211B9DEAA000771E1D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0142B0221B9DEAA000771E1D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,7 +399,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = WoolMarket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lemontree.WoolMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,7 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = WoolMarket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lemontree.WoolMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,6 +488,7 @@
 				0142B03F1B9DEAA100771E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0142B0401B9DEAA100771E1D /* Build configuration list for PBXNativeTarget "WoolMarketTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				0142B0421B9DEAA100771E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0142B0431B9DEAA100771E1D /* Build configuration list for PBXNativeTarget "WoolMarketUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				0142B0451B9DEAA100771E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
