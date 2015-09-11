@@ -33,6 +33,8 @@ class GoodViewController: UITableViewController{
         info["_timeLimitDays"]=8
         info["_requireMoney"]=1000
         info["_detailRules"]="更多详细规则"
+        info["_website"]="www.sina.com.cn"
+        info["_endTime"]="2015-9-16"
 
     }
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {

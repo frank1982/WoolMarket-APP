@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let firstVC=GoodViewController();
         let nav1=UINavigationController(rootViewController:firstVC);
         nav1.tabBarItem=UITabBarItem(title:"羊圈",image:UIImage(named:"Sheep")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal),tag:0);
-
+        
         let secondVC=BadViewController();
         let nav2=UINavigationController(rootViewController:secondVC);
         nav2.tabBarItem=UITabBarItem(title:"狼窝",image:UIImage(named:"Wolf")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal),tag:1);
