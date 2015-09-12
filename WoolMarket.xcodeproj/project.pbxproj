@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012CD9DA1BA34A99000E0FA0 /* GoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012CD9D91BA34A99000E0FA0 /* GoodDetailViewController.swift */; };
 		0142B0161B9DEAA000771E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142B0151B9DEAA000771E1D /* AppDelegate.swift */; };
 		0142B0181B9DEAA000771E1D /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142B0171B9DEAA000771E1D /* GoodViewController.swift */; };
 		0142B01B1B9DEAA000771E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0142B0191B9DEAA000771E1D /* Main.storyboard */; };
@@ -16,7 +17,7 @@
 		0142B0471B9DEE9500771E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0142B0461B9DEE9500771E1D /* Assets.xcassets */; };
 		01FB62A31BA09536003C2D72 /* BadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB62A21BA09536003C2D72 /* BadViewController.swift */; };
 		01FB631F1BA186E1003C2D72 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB631E1BA186E1003C2D72 /* AboutViewController.swift */; };
-		01FB63211BA1D1A1003C2D72 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB63201BA1D1A1003C2D72 /* TableViewCell.swift */; };
+		01FB63211BA1D1A1003C2D72 /* GoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB63201BA1D1A1003C2D72 /* GoodTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		012CD9D91BA34A99000E0FA0 /* GoodDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodDetailViewController.swift; sourceTree = "<group>"; };
 		0142B0121B9DEAA000771E1D /* WoolMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoolMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0142B0151B9DEAA000771E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0142B0171B9DEAA000771E1D /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +54,7 @@
 		0142B0461B9DEE9500771E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01FB62A21BA09536003C2D72 /* BadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadViewController.swift; sourceTree = "<group>"; };
 		01FB631E1BA186E1003C2D72 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		01FB63201BA1D1A1003C2D72 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		01FB63201BA1D1A1003C2D72 /* GoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,8 @@
 				0142B01C1B9DEAA000771E1D /* WoolMarket.xcdatamodeld */,
 				01FB62A21BA09536003C2D72 /* BadViewController.swift */,
 				01FB631E1BA186E1003C2D72 /* AboutViewController.swift */,
-				01FB63201BA1D1A1003C2D72 /* TableViewCell.swift */,
+				01FB63201BA1D1A1003C2D72 /* GoodTableViewCell.swift */,
+				012CD9D91BA34A99000E0FA0 /* GoodDetailViewController.swift */,
 			);
 			path = WoolMarket;
 			sourceTree = "<group>";
@@ -269,7 +272,8 @@
 				0142B01E1B9DEAA000771E1D /* WoolMarket.xcdatamodeld in Sources */,
 				01FB62A31BA09536003C2D72 /* BadViewController.swift in Sources */,
 				0142B0181B9DEAA000771E1D /* GoodViewController.swift in Sources */,
-				01FB63211BA1D1A1003C2D72 /* TableViewCell.swift in Sources */,
+				01FB63211BA1D1A1003C2D72 /* GoodTableViewCell.swift in Sources */,
+				012CD9DA1BA34A99000E0FA0 /* GoodDetailViewController.swift in Sources */,
 				01FB631F1BA186E1003C2D72 /* AboutViewController.swift in Sources */,
 				0142B0161B9DEAA000771E1D /* AppDelegate.swift in Sources */,
 			);

@@ -1,16 +1,10 @@
-//
-//  AppDelegate.swift
-//  WoolMarket
-//
-//  Created by frank on 15/9/7.
-//  Copyright © 2015年 frank. All rights reserved.
-//
+
 
 import UIKit
 import CoreData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate{
 
     var window: UIWindow?
 
@@ -18,6 +12,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         sleep(2)
+        
+        
+        
         let firstVC=GoodViewController();
         let nav1=UINavigationController(rootViewController:firstVC);
         nav1.tabBarItem=UITabBarItem(title:"羊圈",image:UIImage(named:"Sheep")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal),tag:0);
@@ -45,11 +42,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var view=UIView(frame: rect)
         view.backgroundColor=UIColor.whiteColor()
          tabBarController.tabBar.insertSubview(view, atIndex: 0)
-        
+
         self.window!.makeKeyAndVisible()
+        
    
         return true
     }
+    
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
